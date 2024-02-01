@@ -1,0 +1,54 @@
+import React, { useState } from 'react'
+import { DevName, DevNameWrap, HamburgerWrap, NavBar, NavLinks, NavLinksWrap, NavWrap, ResponsiveNavLinks } from '../../styles/Nav'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
+
+const Nav = () => {
+
+    const navLinks = [
+        {title : "home", link : "#Home"},
+        {title : "about", link : "#About"},
+        {title : "projects", link : "#Projects"},
+        {title : "contact", link : "#Contact"},
+    ]
+
+    const [nav, setNav] = useState(true)
+
+    !nav?document.body.style.overflow="hidden":document.body.style.overflow="auto";
+
+    const handleNav = () => {
+        setNav(!nav)
+    }
+
+    const handleOverflow = () => {
+        setNav(true)
+    }
+
+  return (
+    <NavWrap>
+        <NavBar>
+            <DevNameWrap>
+                <DevName>Shreyash.dev</DevName>
+            </DevNameWrap>   
+            <NavLinksWrap>
+            {navLinks.map((links) => (
+                <NavLinks href = {links.link}>{links.title}</NavLinks>
+                ))}
+            </NavLinksWrap>
+            <HamburgerWrap onClick={handleNav}>
+            {nav ? <GiHamburgerMenu /> : <RxCross2 />}
+            </HamburgerWrap>
+
+            
+            {!nav && (<ResponsiveNavLinks onClick={handleOverflow}> 
+            {navLinks.map((links) => (
+                <NavLinks href = {links.link}>{links.title}</NavLinks>
+                ))}
+            </ResponsiveNavLinks>)}
+           
+        </NavBar>
+    </NavWrap>
+  )
+}
+
+export default Nav
