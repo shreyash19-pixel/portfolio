@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
     width: 100%;
-    padding: 100px 140px;
+    padding: 60px 140px;
+    background-color: ${(props) => (props.isContact ? "#f1f1f1" : "white")};
 
     @media (max-width: 1125px)
     {
@@ -13,6 +14,7 @@ export const ProjectContainer = styled.div`
     @media (max-width: 600px)
     {
       padding-inline: 20px;
+      padding-block: 20px;
     }
 `
 
@@ -20,7 +22,9 @@ export const ProjectWrap = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
+
+    
 `
 
 export const ProjectHeadingWrap = styled.div`
@@ -29,14 +33,25 @@ export const ProjectHeadingWrap = styled.div`
     flex-direction: column;
     gap: 10px;
     
+
+    @media (max-width: 768px)
+    {
+        text-align: center;
+    }
 `
 
 export const HeadingDescWrap = styled.div`
     display: flex;
     align-items: center;
+    
 
     span{
         color: #509941;
+    }
+
+    @media (max-width: 768px)
+    {
+        justify-content: center;
     }
 `
 
@@ -51,6 +66,13 @@ export const ProjectNumber1 = styled.div`
     {
         flex-direction: column;
         gap: 25px;
+    }
+`
+
+export const ProjectNumber2 = styled(ProjectNumber1)`
+    @media(max-width: 768px)
+    {
+        flex-direction: column-reverse;
     }
 `
 

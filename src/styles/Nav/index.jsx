@@ -37,7 +37,8 @@ export const NavLinksWrap = styled.div`
 export const NavLinks = styled.a`
     text-decoration: none;
     color: black;
-    font-size: 16px;;
+    font-size: 16px;
+    font-weight: 600;
 `
 
 export const HamburgerWrap = styled.div`

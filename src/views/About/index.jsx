@@ -9,7 +9,7 @@ const About = () => {
     const text = "FULL STACK WEB DEV"
 
   return (
-        <AboutContainer>
+        <AboutContainer id = "About">
             <AboutWrap>
             <AboutImageContainer>
                 <AboutImageWrap>

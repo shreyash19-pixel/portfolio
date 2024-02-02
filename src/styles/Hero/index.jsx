@@ -19,6 +19,7 @@ export const HeroContainer = styled.div`
     @media (max-width: 375px)
     {
         padding-inline: 15px;
+        padding-block: 10px;
     }
 `
 
@@ -174,6 +175,10 @@ export const DevsImgWrap = styled.div`
         min-height: 220px;
     }
 `;
+
+export const DevsImg = styled.img`
+    width: 100%;
+`
 
 export const DevsTechStackWrap = styled.div`
     display: flex;

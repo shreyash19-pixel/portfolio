@@ -1,5 +1,5 @@
 import React from 'react'
-import { Css, DevDescWrap,  DevsDesc, DevsDesignation, DevsDesignationWrap, DevsImgContainer, DevsImgWrap, DevsInfoImgWrap, DevsInfoWrap,DevsSkillsWrap, DevsSocialLinks, DevsSocialLinksWrap, DevsTechStack, DevsTechStackWrap, HelloHand, HeroContainer, HeroWrap, Html, Java, Js, Mongo, Mysql, Node, Python, ReactJs, Redux } from '../../styles/Hero'
+import { Css, DevDescWrap,  DevsDesc, DevsDesignation, DevsDesignationWrap, DevsImg, DevsImgContainer, DevsImgWrap, DevsInfoImgWrap, DevsInfoWrap,DevsSkillsWrap, DevsSocialLinks, DevsSocialLinksWrap, DevsTechStack, DevsTechStackWrap, HelloHand, HeroContainer, HeroWrap, Html, Java, Js, Mongo, Mysql, Node, Python, ReactJs, Redux } from '../../styles/Hero'
 import { MdWavingHand } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -13,6 +13,7 @@ import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
+
 
 const Hero = () => {
 
@@ -46,7 +47,7 @@ const Hero = () => {
                 </DevsInfoWrap>
                 <DevsImgContainer>
                     <DevsImgWrap>
-                       
+                     
                     </DevsImgWrap>
                 </DevsImgContainer>
             </DevsInfoImgWrap>

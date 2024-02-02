@@ -101,7 +101,7 @@ export const AboutInfoWrap = styled.div`
 `
 
 export const AboutHeading = styled.h4`
-    color: #40A2E3;
+    color: #0e92ff;
     font-size: 15px;
 
     @media (max-width: 768px)
@@ -120,7 +120,7 @@ export const AboutDevsDesignationWrap = styled.div`
 `
 
 export const AboutDevsDesignation = styled.h2`
-     @media (max-width: 1125px)
+    @media (max-width: 1125px)
     {
       font-size: 22px;
     }
