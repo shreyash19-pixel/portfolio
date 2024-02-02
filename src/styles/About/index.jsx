@@ -89,8 +89,8 @@ export const TechGuyImg = styled.img`
 
 export const AboutImg = styled.img`
     width: 100%;
-    max-width: 550px;
     border-radius: 10px;
+    object-fit: cover;
 `
 
 export const AboutInfoWrap = styled.div`
