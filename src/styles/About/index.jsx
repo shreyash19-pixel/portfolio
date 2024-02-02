@@ -45,7 +45,7 @@ export const BallWrap = styled.div`
     border-radius: 100%;
     position: absolute;
     bottom: -10px;
-    left: -10px;
+    right: -10px;
     display: flex;
     align-items: center;
     justify-content: center;
