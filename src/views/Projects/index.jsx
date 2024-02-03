@@ -7,9 +7,9 @@ import { FaGithub } from "react-icons/fa";
 import { RiExternalLinkLine } from "react-icons/ri";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { PiSunglassesBold } from "react-icons/pi";
-import ProjectImg1 from '../../assets/spotify.jpg'
+import ProjectImg1 from '../../assets/spotify.png'
 import ProjectImg2 from '../../assets/fundraising.png'
-import ProjectImg3 from '../../assets/eye-wear.jpg'
+import ProjectImg3 from '../../assets/eye-wear.png'
 
 const Projects = () => {
   return (
