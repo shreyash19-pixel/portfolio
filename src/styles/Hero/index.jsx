@@ -3,7 +3,11 @@ import DevsImage from '../../assets/devs-image.png'
 
 export const HeroContainer = styled.div`
     width: 100%;
-    padding: 50px 140px;
+    padding: 140px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media (max-width: 1106px)
     {
@@ -12,19 +16,18 @@ export const HeroContainer = styled.div`
 
     @media (max-width: 768px)
     {
-        padding-block: 25px;
         padding-inline: 40px;
     }
 
     @media (max-width: 375px)
     {
         padding-inline: 15px;
-        padding-block: 10px;
     }
 `
 
 export const HeroWrap = styled.div`
     width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -58,7 +61,7 @@ export const DevsInfoWrap = styled.div`
 
 export const DevsDesignationWrap = styled.div`
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -72,6 +75,7 @@ export const DevsDesignationWrap = styled.div`
 
 export const DevsDesignation = styled.h1`
     font-size: 55px;
+    color: #2D2E32;
 
     @media (max-width: 1106px)
     {
@@ -248,16 +252,4 @@ export const Java = styled(Html)`
 
 export const Python = styled(Html)`
     color: #3973A4; 
-`
-
-export const Node = styled(Html)`
-    color: #509941; 
-`
-
-export const Mysql = styled(Html)`
-    color: #00536A; 
-`
-
-export const Mongo = styled(Html)`
-    color: #419432; 
 `

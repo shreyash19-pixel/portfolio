@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { DevName, DevNameWrap, HamburgerWrap, NavBar, NavLinks, NavLinksWrap, NavWrap, ResponsiveNavLinks } from '../../styles/Nav'
+import { CrossWrap, DevName, DevNameWrap, HamburgerWrap, NavBar, NavLinks, NavLinksWrap, NavWrap, ResponsiveNavLinks } from '../../styles/Nav'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 
@@ -36,11 +36,14 @@ const Nav = () => {
                 ))}
             </NavLinksWrap>
             <HamburgerWrap onClick={handleNav}>
-            {nav ? <GiHamburgerMenu /> : <RxCross2 />}
+                <GiHamburgerMenu /> 
             </HamburgerWrap>
 
             
             {!nav && (<ResponsiveNavLinks onClick={handleOverflow}> 
+                <CrossWrap>
+                    <RxCross2 />
+                </CrossWrap>
             {navLinks.map((links) => (
                 <NavLinks href = {links.link}>{links.title}</NavLinks>
                 ))}

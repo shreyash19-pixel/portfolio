@@ -4,7 +4,10 @@ import styled from "styled-components";
 export const ProjectContainer = styled.div`
     width: 100%;
     padding: 60px 140px;
-    background-color: ${(props) => (props.isContact ? "#f1f1f1" : "white")};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ${(props) => (props.isContact ? "#f1f1f1" : "  background-color: #F9F9F9;")};
 
     @media (max-width: 1125px)
     {
@@ -20,11 +23,10 @@ export const ProjectContainer = styled.div`
 
 export const ProjectWrap = styled.div`
     width: 100%;
+      max-width: 1000px;
     display: flex;
     flex-direction: column;
     gap: 80px;
-
-    
 `
 
 export const ProjectHeadingWrap = styled.div`

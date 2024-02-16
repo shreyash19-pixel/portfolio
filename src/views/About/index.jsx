@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import { AboutContainer, AboutDevsDesc, AboutDevsDescWrap, AboutDevsDesignation, AboutDevsDesignationWrap, AboutHeading, AboutImageContainer, AboutImageWrap, AboutImg, AboutInfoWrap, AboutWrap, BallWrap, CircularText, CircularTextWrap, TechGuyImg } from '../../styles/About'
 import LaptopImg from '../../assets/laptop.jpg'
 import TechGuy from '../../assets/man-technologist.png'
@@ -6,7 +6,7 @@ import TechGuy from '../../assets/man-technologist.png'
 const About = () => {
 
 
-    const text = "FULL STACK WEB DEV"
+    const text = "FRONT-END WEB DEV"
 
   return (
         <AboutContainer id = "About">
@@ -35,8 +35,8 @@ const About = () => {
                 </AboutDevsDesignationWrap>
                 <AboutDevsDescWrap>
                     <AboutDevsDesc>
-                        As a junior Full Stack Web Developer, I possess an impressive arsenal of skills in HTML, CSS, Javascript, 
-                        React, Redux, Java, Python, MySQL, MongoDB. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise
+                        As a junior Front-End React Developer, I possess an impressive arsenal of skills in HTML, CSS, Javascript, 
+                        React, Redux, Java, Python. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise
                         lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge 
                         development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams
                         to produce outstanding web applications.

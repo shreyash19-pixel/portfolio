@@ -2,7 +2,12 @@ import styled from 'styled-components'
 
 export const NavWrap = styled.div`
     width: 100%;
-    padding: 40px;
+    padding: 20px 40px;
+    position: fixed;
+    top:0;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    z-index: 99;
+    background-color: white;
 
     @media (max-width: 600px)
     {
@@ -39,6 +44,11 @@ export const NavLinks = styled.a`
     color: black;
     font-size: 16px;
     font-weight: 600;
+
+    @media (max-width: 768px)
+    {
+        font-size: 20px;
+    }
 `
 
 export const HamburgerWrap = styled.div`
@@ -53,6 +63,21 @@ export const HamburgerWrap = styled.div`
     }
 `
 
+export const CrossWrap = styled.div`
+     display: none;
+
+    @media (max-width: 768px)
+    {
+        display: flex;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 4;
+        right: 20px;
+        top: 40px;
+    }
+`
+
 export const ResponsiveNavLinks = styled.div`
     display: none;
 
@@ -62,16 +87,24 @@ export const ResponsiveNavLinks = styled.div`
         height: 100vh;
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
         gap: 60px;
-        background-color: #F1F3F5;
+        background-color: white;
         position: absolute;
-        top: 100px;
+        top: 0;
         left:0px;
-        font-size: 22px;
-        padding-top: 40px;
-        z-index: 3;
+        animation : left .4s ease-out;
+        z-index: 99999;
+
+        @keyframes left {
+        from {
+            transform: translate(-100%);
+        }
+        to {
+            transform: translate(0);
+        }
+        }
     }
     
 `

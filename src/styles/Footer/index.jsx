@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
     width: 100%;
     padding: 30px 140px;
-    background-color: black;
+    background-color: #2D2E32;
 
     @media (max-width: 1125px)
     {

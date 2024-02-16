@@ -3,6 +3,9 @@ import styled, {keyframes} from "styled-components";
 export const AboutContainer = styled.div`
     width: 100%;
     padding: 130px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     @media (max-width: 1125px)
     {
@@ -17,6 +20,7 @@ export const AboutContainer = styled.div`
 
 export const AboutWrap = styled.div`
     width: 100%;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;

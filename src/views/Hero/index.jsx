@@ -1,5 +1,5 @@
 import React from 'react'
-import { Css, DevDescWrap,  DevsDesc, DevsDesignation, DevsDesignationWrap, DevsImg, DevsImgContainer, DevsImgWrap, DevsInfoImgWrap, DevsInfoWrap,DevsSkillsWrap, DevsSocialLinks, DevsSocialLinksWrap, DevsTechStack, DevsTechStackWrap, HelloHand, HeroContainer, HeroWrap, Html, Java, Js, Mongo, Mysql, Node, Python, ReactJs, Redux } from '../../styles/Hero'
+import { Css, DevDescWrap,  DevsDesc, DevsDesignation, DevsDesignationWrap, DevsImgContainer, DevsImgWrap, DevsInfoImgWrap, DevsInfoWrap,DevsSkillsWrap, DevsSocialLinks, DevsSocialLinksWrap, DevsTechStack, DevsTechStackWrap, HelloHand, HeroContainer, HeroWrap, Html, Java, Js,  Python, ReactJs, Redux } from '../../styles/Hero'
 import { MdWavingHand } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -10,22 +10,20 @@ import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { GrMysql } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
+
 
 
 const Hero = () => {
 
 
   return (
-    <HeroContainer>
+    <HeroContainer id = "Home">
         <HeroWrap>
             <DevsInfoImgWrap>
                 <DevsInfoWrap>
                     <DevsDesignationWrap>
                         <DevsDesignation>
-                            Full Stack Web Developer &nbsp;
+                            Front-End React Developer &nbsp;
                             <HelloHand>
                                 <MdWavingHand />
                             </HelloHand>
@@ -33,7 +31,7 @@ const Hero = () => {
                     </DevsDesignationWrap>
                     <DevDescWrap>
                         <DevsDesc>
-                            Hi, I'm Shreyash. A passionate full stack web developer based in Mumbai, India.
+                            Hi, I'm Shreyash. A passionate Front-end React Developer based in Mumbai, India.
                         </DevsDesc>
                     </DevDescWrap>
                     <DevsSocialLinksWrap>
@@ -75,15 +73,6 @@ const Hero = () => {
                    <Python>
                     <FaPython />
                    </Python>
-                   <Node>
-                    <FaNodeJs />
-                   </Node>
-                   <Mysql>
-                    <GrMysql />
-                   </Mysql>
-                   <Mongo>
-                    <SiMongodb />
-                   </Mongo>
                 </DevsSkillsWrap>
             </DevsTechStackWrap>
         </HeroWrap>

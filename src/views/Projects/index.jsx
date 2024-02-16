@@ -5,11 +5,11 @@ import { BsPuzzleFill } from "react-icons/bs";
 import { IoIosMusicalNotes } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { RiExternalLinkLine } from "react-icons/ri";
-import { FaMoneyBillAlt } from "react-icons/fa";
-import { PiSunglassesBold } from "react-icons/pi";
 import ProjectImg1 from '../../assets/spotify.png'
-import ProjectImg2 from '../../assets/fundraising.png'
-import ProjectImg3 from '../../assets/eye-wear.png'
+import ProjectImg2 from '../../assets/car-rental.png'
+import ProjectImg3 from '../../assets/crypto.png'
+import { FaCar } from "react-icons/fa";
+import { SiHiveBlockchain } from "react-icons/si";
 
 const Projects = () => {
   return (
@@ -47,20 +47,19 @@ const Projects = () => {
             </ProjectNumber1>
             <ProjectNumber2>
                 <ProjectInfoWrap>
-                    <ProjectName>FUNDRAISING APP  <span><FaMoneyBillAlt/> </span> </ProjectName>
+                    <ProjectName>CAR RENTAL  <span><FaCar /> </span> </ProjectName>
                
                 <ProjectDescWrap>
-                    <ProjectDesc>A landing page of a Fundraising website where people from different parts of the world can donate a small amount
-                        which can help in providing basic human necessities such as food, clothing, medicines, study materials to needy and poor people. A small help
-                        from you, means a lot to them.
+                    <ProjectDesc> A car rental website is an online platform that allows users to rent cars for personal
+                        or business use. The website provides an interface for searching, comparing, and reserving cars.
                     </ProjectDesc>
                 </ProjectDescWrap>
                 <TechnologyWrap>
                     <Technology>React</Technology>
                 </TechnologyWrap>
                 <TechnologyWrap>
-                    <CodeLink href = "https://github.com/shreyash19-pixel/fundraising" target = "_blank">Code <span><FaGithub/></span> </CodeLink>
-                    <CodeLink href = "https://fundraising-ten.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
+                    <CodeLink href = "https://github.com/shreyash19-pixel/car-rental" target = "_blank">Code <span><FaGithub/></span> </CodeLink>
+                    <CodeLink href = "https://car-rental-three-nu.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
                 </TechnologyWrap>
                 </ProjectInfoWrap>
                 <ProjectImageCont>
@@ -76,20 +75,19 @@ const Projects = () => {
                     </ProjectImageWrap>
                 </ProjectImageCont>
                 <ProjectInfoWrap>
-                    <ProjectName>EYE-WEAR APP  <span><PiSunglassesBold/> </span> </ProjectName>
+                    <ProjectName>CRYPTO <span><SiHiveBlockchain /> </span> </ProjectName>
                
                 <ProjectDescWrap>
                     <ProjectDesc>
-                        A landing page of an Eye-wear app, where user can view collection of pocket friendly sunglasses, glasses ,try our lenses virtually, 
-                        can contact specialists doctors incase of any eye-related problem. We have insurance plans as well for our customers. 
+                        CRYPTO is a crypto-currency app that allow users to search for information about various crypto-currencies in real-time.
                     </ProjectDesc>
                 </ProjectDescWrap>
                 <TechnologyWrap>
                     <Technology>React</Technology>
                 </TechnologyWrap>
                 <TechnologyWrap>
-                    <CodeLink href = "https://github.com/shreyash19-pixel/eye-wear-app" target = "_blank">Code <span><FaGithub/></span> </CodeLink>
-                    <CodeLink href = "https://eye-wear-app.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
+                    <CodeLink href = "https://github.com/shreyash19-pixel/crypto-app" target = "_blank">Code <span><FaGithub/></span> </CodeLink>
+                    <CodeLink href = "https://crypto-app-eight-dun.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
                 </TechnologyWrap>
                 </ProjectInfoWrap>
             </ProjectNumber1>
