@@ -45,6 +45,10 @@ export const NavLinks = styled.a`
     font-size: 16px;
     font-weight: 600;
 
+    &:hover{
+        color : #40A2E3;
+    }
+
     @media (max-width: 768px)
     {
         font-size: 20px;
