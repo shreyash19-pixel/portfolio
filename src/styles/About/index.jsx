@@ -15,6 +15,7 @@ export const AboutContainer = styled.div`
     @media (max-width: 600px)
     {
       padding-inline: 30px;
+      padding-block: 60px;
     }
 `
 

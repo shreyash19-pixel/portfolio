@@ -17,6 +17,7 @@ export const HeroContainer = styled.div`
     @media (max-width: 768px)
     {
         padding-inline: 40px;
+        padding-bottom: 40px;
     }
 
     @media (max-width: 375px)
@@ -31,6 +32,11 @@ export const HeroWrap = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    @media (max-width: 768px)
+    {
+        gap: 25px;
+    }
 `
 
 export const DevsInfoImgWrap = styled.div`
