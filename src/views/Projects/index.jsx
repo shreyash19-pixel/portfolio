@@ -48,7 +48,7 @@ const Projects = () => {
                 </TechnologyWrap>
                 </ProjectInfoWrap>
             </ProjectNumber1>
-            <ProjectNumber1>
+            <ProjectNumber2>
                 <ProjectInfoWrap>
                     <ProjectName>GYM-APP <span><GiWeightLiftingUp/> </span> </ProjectName>
                
@@ -71,8 +71,8 @@ const Projects = () => {
                         <ProjectImage src = {ProjectImg2} />
                     </ProjectImageWrap>
                 </ProjectImageCont>
-            </ProjectNumber1>
-            <ProjectNumber2>
+            </ProjectNumber2>
+            <ProjectNumber1>
             <ProjectImageCont>
                     <ProjectImageWrap>
                         <ProjectImage src = {ProjectImg3} />
@@ -95,11 +95,10 @@ const Projects = () => {
                 </TechnologyWrap>
                 </ProjectInfoWrap>
                
-            </ProjectNumber2>
-            <ProjectNumber1>         
+            </ProjectNumber1>
+            <ProjectNumber2>         
                 <ProjectInfoWrap>
                     <ProjectName>CRYPTO <span><SiHiveBlockchain /> </span> </ProjectName>
-               
                 <ProjectDescWrap>
                     <ProjectDesc>
                         CRYPTO is a crypto-currency app that allow users to search for information about various crypto-currencies in real-time.
@@ -118,7 +117,7 @@ const Projects = () => {
                         <ProjectImage src = {ProjectImg4} />
                     </ProjectImageWrap>
                 </ProjectImageCont>
-            </ProjectNumber1>
+            </ProjectNumber2>
         </ProjectWrap>
     </ProjectContainer>
   )
