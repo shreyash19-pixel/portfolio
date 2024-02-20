@@ -6,10 +6,12 @@ import { IoIosMusicalNotes } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { RiExternalLinkLine } from "react-icons/ri";
 import ProjectImg1 from '../../assets/spotify.png'
-import ProjectImg2 from '../../assets/car-rental.png'
-import ProjectImg3 from '../../assets/crypto.png'
+import ProjectImg2 from '../../assets/gym.png'
+import ProjectImg3 from '../../assets/car-rental.png'
+import ProjectImg4 from '../../assets/crypto.png'
 import { FaCar } from "react-icons/fa";
 import { SiHiveBlockchain } from "react-icons/si";
+import { GiWeightLiftingUp } from "react-icons/gi";
 
 const Projects = () => {
   return (
@@ -27,6 +29,7 @@ const Projects = () => {
                         <ProjectImage src = {ProjectImg1} />
                     </ProjectImageWrap>
                 </ProjectImageCont>
+                
                 <ProjectInfoWrap>
                     <ProjectName>WEB MUSIC APP  <span><IoIosMusicalNotes/> </span> </ProjectName>
                
@@ -45,7 +48,36 @@ const Projects = () => {
                 </TechnologyWrap>
                 </ProjectInfoWrap>
             </ProjectNumber1>
+            <ProjectNumber1>
+                <ProjectInfoWrap>
+                    <ProjectName>GYM-APP <span><GiWeightLiftingUp/> </span> </ProjectName>
+               
+                <ProjectDescWrap>
+                    <ProjectDesc>
+                    A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users
+                        achieve their fitness goals.
+                    </ProjectDesc>
+                </ProjectDescWrap>
+                <TechnologyWrap>
+                    <Technology>React</Technology>
+                </TechnologyWrap>
+                <TechnologyWrap>
+                    <CodeLink href = "https://github.com/shreyash19-pixel/gym-app" target = "_blank">Code <span><FaGithub/></span> </CodeLink>
+                    <CodeLink href = "https://gym-app-jade.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
+                </TechnologyWrap>
+                </ProjectInfoWrap>
+                <ProjectImageCont>
+                    <ProjectImageWrap>
+                        <ProjectImage src = {ProjectImg2} />
+                    </ProjectImageWrap>
+                </ProjectImageCont>
+            </ProjectNumber1>
             <ProjectNumber2>
+            <ProjectImageCont>
+                    <ProjectImageWrap>
+                        <ProjectImage src = {ProjectImg3} />
+                    </ProjectImageWrap>
+                </ProjectImageCont>
                 <ProjectInfoWrap>
                     <ProjectName>CAR RENTAL  <span><FaCar /> </span> </ProjectName>
                
@@ -62,18 +94,9 @@ const Projects = () => {
                     <CodeLink href = "https://car-rental-three-nu.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
                 </TechnologyWrap>
                 </ProjectInfoWrap>
-                <ProjectImageCont>
-                    <ProjectImageWrap>
-                        <ProjectImage src = {ProjectImg2} />
-                    </ProjectImageWrap>
-                </ProjectImageCont>
+               
             </ProjectNumber2>
-            <ProjectNumber1>
-                <ProjectImageCont>
-                    <ProjectImageWrap>
-                        <ProjectImage src = {ProjectImg3} />
-                    </ProjectImageWrap>
-                </ProjectImageCont>
+            <ProjectNumber1>         
                 <ProjectInfoWrap>
                     <ProjectName>CRYPTO <span><SiHiveBlockchain /> </span> </ProjectName>
                
@@ -90,6 +113,11 @@ const Projects = () => {
                     <CodeLink href = "https://crypto-app-eight-dun.vercel.app/" target = "_blank">Live Demo <span><RiExternalLinkLine/></span></CodeLink>
                 </TechnologyWrap>
                 </ProjectInfoWrap>
+                <ProjectImageCont>
+                    <ProjectImageWrap>
+                        <ProjectImage src = {ProjectImg4} />
+                    </ProjectImageWrap>
+                </ProjectImageCont>
             </ProjectNumber1>
         </ProjectWrap>
     </ProjectContainer>
